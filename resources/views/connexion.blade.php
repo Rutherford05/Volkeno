@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-            <div class="card-header bg-dark text-white">{{ __('Se Connecter') }}</div>
+            <div class="card-header bg-dark text-white">{{ __('INSCRIPTION') }}</div>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
